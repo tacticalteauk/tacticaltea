@@ -31,21 +31,49 @@
         a {
             color: #ADD8E6;  /* Light Blue */
         }
+        a.big-link {
+            display: block;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 1rem;
+            padding: 1rem;
+            background-color: #000;
+        }
+        img.banner {
+            width: 100%;
+        }
+        .image-wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        img.product {
+            width: 300px;
+        }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Tactical Tea</h1>
+        <img class="banner" src="your_banner_image_link_here.jpg" alt="Tactical Tea Banner">
     </header>
 
     <div class="container">
         <div class="announcement">
-            <p>We have ceased trading.</p>
+            <p>We have ceased trading.......but......</p>
         </div>
         <div class="info">
-            <p>For fans of Tactical Tea products like "Blitz Brew" or "Thin Brew Line," you can still make purchases at 
-            <a href="https://rosieandjava.com" target="_blank">Rosie & Java</a>.</p>
+            <p>While Tactical Tea the company has ceased, you can still get your fix of Tactical Tea...how? Well luckily for us all Rosie & Java have agreed to keep the brand alive. They are another Veteran Owned Tea & Coffee Business, go give them your support, and stock up with some Blitz Brew and Thin Brew Line while you're at it.</p>
+            <a href="https://rosieandjava.com" target="_blank" class="big-link">Visit Rosie & Java</a>
+            <div class="image-wrapper">
+                <a href="https://rosieandjava.com" target="_blank">
+                    <img class="product" src="your_first_product_image_here.jpg" alt="Product 1">
+                </a>
+                <a href="https://rosieandjava.com" target="_blank">
+                    <img class="product" src="your_second_product_image_here.jpg" alt="Product 2">
+                </a>
+            </div>
         </div>
     </div>
 
